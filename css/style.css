@@ -1,0 +1,196 @@
+* {
+	margin: 0px;
+}
+
+body {
+	background-color: lightgrey;
+
+
+}
+
+.container-fluid {
+	width : 100%;
+	
+}
+
+.container {
+	background-color: white;
+	display: inline-block;
+	position: relative;
+	width : 100%;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+#header {
+	background-image: url(file:///Users/DavidColgan/Documents/notifyPrj/images/banner2.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top: 10px solid #2dcc71;
+	width: 100%; 
+}
+
+#header_content {
+	margin-top: 80px;
+	margin-left : 80px;
+	color: white;
+}
+
+#logo {
+	margin-bottom: 35px;
+	font-size: 4rem;
+	font-family: 'Pacifico', cursive !important;
+}
+#logo_dot {
+	color: #2dcc71; 
+}
+
+#subtitle {
+	font-size: 2rem;
+	margin-bottom: 10px;
+	text-align: justify;
+	left: 170px;
+}
+
+#operator-icons {
+	list-style: none;
+}
+
+#operator-icons li {
+	background-color: white;
+	border-radius: 50%;
+	float: left;
+	height: 50px;
+	width: 50px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+
+#apple-icon {
+	background-color: none !important;
+}
+
+img.icons:hover {
+	background-color: #2dcc71;
+	border-radius: 100%;
+}
+
+#services {
+	margin: 20px 0;
+}
+
+
+#third.container {
+	background: lightgrey;
+
+}
+
+#update_content {
+	margin: 20px;
+}
+
+.btn {
+	background-color: #2dcc71;
+}
+
+.icons {
+	height: 50px;
+	width: 50px;
+	margin-bottom: 15px;
+}
+
+.service-icons {
+	height: 75px;
+	width: 55px;
+}
+
+.img-responsive {
+	border-radius: 10px;
+}
+
+
+#updates {
+	margin: 25px;
+	text-align: center;
+}
+
+#updates h4  {
+	font-weight: bold;
+}
+
+#updates h3  {
+	color: black;
+    font-weight: bolder;
+}
+
+#updates p {
+	font-style: italic;
+    font-weight: lighter;
+}
+
+
+
+.social-icons {
+	list-style: none;
+	margin-left: 35%;
+}
+
+
+.social-icons li {
+	border: 2px solid lightgrey;
+	border-radius: 45%;
+	background-color: lightgrey;
+	float: left;
+	margin-right: 10px;
+}
+
+.social-icons i {
+	color: white;
+	margin: 5px;
+}
+
+.social-icons li:hover {
+	background-color: #2dcc71;
+	border-radius: 100%;
+}
+
+.staff-icons {
+	list-style: none;
+	margin-bottom: 10px;
+
+}
+
+.staff-icons li {
+	float: left;
+	margin-right: 10px;
+	border-radius: none !important;
+}
+
+.staff-content {
+	display: inline-block;
+	position: relative;
+}
+
+.staff-icons li:hover {
+	background-color: #2dcc71;
+	opacity: 0.5;
+}
+
+
+
+footer {
+	background-color: lightgrey;
+	text-align: justify;
+}
+
+.footer-list {
+	list-style: none;
+	margin-left: 35%;
+}
+
+.footer-list li a {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 30px;
+	color: black;
+}
